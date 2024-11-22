@@ -4,7 +4,7 @@
  */
 async function sleep(millis) {
     // resolve fxn will call after millis second
-   await new promise((res)=>{
+   await new Promise((res)=>{
        setTimeout(()=>{
            res()
        },millis)
